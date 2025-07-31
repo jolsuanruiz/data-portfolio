@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me – Data Professional</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-wrapper">
+        <a href="index.html" class="logo">Your Name</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main style="padding-top: 6rem;">
+      <section class="about">
+        <div class="container content">
+          <h2>About Me</h2>
+          <p>
+            Hello! I’m Your Name, a data enthusiast based in Laurel, Virginia. I
+            thrive on turning messy datasets into meaningful narratives. My
+            background spans statistics, programming and business, which helps
+            me bridge the gap between technical analysis and stakeholder
+            communication. Whether I’m cleaning data, constructing models or
+            creating dashboards, my focus is always on generating
+            actionable insights that drive value.
+          </p>
+          <p>
+            Outside of work, I enjoy exploring new tools and techniques,
+            contributing to open‑source projects and sharing my knowledge
+            through blog posts and tutorials. I believe continuous learning
+            is key to success in the fast‑evolving data field.
+          </p>
+          <h3 style="margin-top: 2rem;">Skills & Tools</h3>
+          <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Pandas</span>
+            <span class="skill">NumPy</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Scikit‑Learn</span>
+            <span class="skill">Tableau</span>
+            <span class="skill">Power BI</span>
+            <span class="skill">R</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Data Visualization</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+        </div>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
