@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Data Professional Portfolio</title>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Site header with navigation -->
+    <header>
+      <div class="container nav-wrapper">
+        <a href="index.html" class="logo">Your Name</a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section introducing the portfolio -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hello, I'm Your Name</h1>
+        <p>
+          A data professional specializing in analytics, visualization and
+          machine learning. I love turning raw numbers into actionable
+          insights.
+        </p>
+        <a href="projects.html" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <!-- Introduction / about preview section -->
+    <section class="about" id="about-preview">
+      <div class="container content">
+        <h2>About Me</h2>
+        <p>
+          I’m a data analyst with a passion for uncovering stories hidden in
+          numbers. From scraping and cleaning data to building predictive
+          models and crafting interactive dashboards, I enjoy every step of
+          the data journey. My goal is to help businesses make informed
+          decisions by harnessing the power of data.
+        </p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Projects preview section showing a couple of highlighted projects -->
+    <section id="projects-preview">
+      <div class="container">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+          <!-- Project 1 preview -->
+          <div class="project-card">
+            <img src="assets/project1.png" alt="Data visualization project" />
+            <div class="project-content">
+              <h3 class="project-title">Sales Analytics Dashboard</h3>
+              <p class="project-description">
+                Built an interactive dashboard to visualize monthly sales
+                trends and highlight key performance metrics using Python and
+                Tableau.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Tableau</span>
+                <span class="tag">SQL</span>
+              </div>
+              <div class="card-buttons">
+                <a href="project1.html" class="btn">Details</a>
+                <a href="#" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 preview -->
+          <div class="project-card">
+            <img src="assets/project2.png" alt="Machine learning project" />
+            <div class="project-content">
+              <h3 class="project-title">Predictive Modeling</h3>
+              <p class="project-description">
+                Developed a machine learning model to predict customer churn
+                using classification algorithms and evaluated performance
+                through cross‑validation.
+              </p>
+              <div class="tag-list">
+                <span class="tag">Python</span>
+                <span class="tag">Scikit‑Learn</span>
+                <span class="tag">Pandas</span>
+              </div>
+              <div class="card-buttons">
+                <a href="project2.html" class="btn">Details</a>
+                <a href="#" class="btn">Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="projects.html" class="btn">See All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer with social links and copyright -->
+    <footer>
+      <div class="container">
+        <div class="footer-links">
+          <a href="#" aria-label="GitHub">GitHub</a>
+          <a href="#" aria-label="LinkedIn">LinkedIn</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+        </div>
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Update footer year dynamically
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
